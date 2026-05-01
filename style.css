@@ -10,6 +10,7 @@ h1 {
 }
 
 button {
+  display: inline-block;
   padding: 10px 20px;
   margin: 10px;
   border: none;
@@ -32,4 +33,18 @@ input {
   margin: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.container {
+  background-color: rgb(4, 253, 224);
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button-group {
+  margin-top: 20px;
 }
