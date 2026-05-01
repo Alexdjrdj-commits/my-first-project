@@ -16,5 +16,11 @@ function makeBlack() {
 
 function useInput() {
   const input = document.getElementById("userInput").value;
-  document.querySelector("h1").textContent = input;
+  
+  if (input==="") {
+    document.querySelector("h1").textContent = "Please type something first!";
+    
+  } else {
+    document.querySelector("h1").textContent = input;
+  }
 }
