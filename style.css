@@ -22,3 +22,14 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+
+
+
+input {
+  padding: 10px;
+  width: 250px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

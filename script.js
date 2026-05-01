@@ -9,3 +9,8 @@ function resetText() {
 function makeRed() {
   document.querySelector("h1").style.color = "red";
 }
+
+function useInput() {
+  const input = document.getElementById("userInput").value;
+  document.querySelector("h1").textContent = input;
+}
