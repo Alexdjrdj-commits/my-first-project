@@ -3,11 +3,15 @@ function changeText() {
 }
 
 function resetText() {
-  document.querySelector("h1").textContent = "Hello, I am learning coding 🚀";
+  document.querySelector("h1").textContent = "My First Interactive Website 🚀";
 }
 
 function makeRed() {
   document.querySelector("h1").style.color = "red";
+}
+
+function makeBlack() {
+  document.querySelector("h1").style.color = "black";
 }
 
 function useInput() {
